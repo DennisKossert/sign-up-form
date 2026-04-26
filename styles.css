@@ -13,6 +13,69 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 66.6vw;
+    width: 66.6%;
     height: 100vh;
+    background-color: rgb(233, 233, 233)
+}
+
+.top-section {
+    padding: 8% 4%;
+    font-weight: 700;
+}
+
+.mid-section {
+    background-color: white;
+    padding: 2% 4%;
+    box-shadow: 0.1rem 0.1rem 0.4rem lightgray;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+form {
+    margin-bottom: 4%;
+}
+
+.form-row {
+    display:flex;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-right: 4%;
+}
+
+input {
+    border-radius: 4px;
+    border-width: 0.1rem;
+    border-color: rgb(233, 233, 233);
+    border-style: solid;
+}
+
+input:focus {
+    border-color: rgb(0, 225, 255);
+    box-shadow: 0.1rem 0.1rem 0.4rem lightgray;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    padding: 4% 4%;
+    font-weight: 700;
+}
+
+button {
+    background-color: rgb(126, 148, 31);
+    border-radius: 4px;
+    border: none;
+    width: 18ch;
+    height: 3.66ch;
 }
